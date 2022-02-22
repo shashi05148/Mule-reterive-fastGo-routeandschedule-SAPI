@@ -1,0 +1,15 @@
+http:
+  listner:
+    host: "localhost"
+    port: "8084"
+    base: "/fastGo-sapi"
+
+  requester:
+    fastgo:
+      eapi:
+        host: "localhost"
+        port: "8082"
+        base: "/fastGo-eapi"
+        getRoutesPath: "/travel/routes"
+        getSchedulesPath: "/travel/schedules"        
+     

@@ -1,0 +1,11 @@
+#%RAML 1.0 Library
+usage:
+traits:
+  trsnsactionId: !include /libraries/common/traits/header-transactionId-trait.raml
+  companyName: !include /libraries/common/traits/parameter-companyName-trait.raml
+  departureLocation: !include /libraries/common/traits/parameter-departureLocationCode-trait.raml
+  destinationLocation: !include /libraries/common/traits/parameter-destinationLocationCode-trait.raml
+  requestTimezone: !include /libraries/common/traits/parameter-requestTimezone-trait.raml
+
+types:
+  commonError : !include /libraries/common/dataTypes/common-error-dataType.raml
